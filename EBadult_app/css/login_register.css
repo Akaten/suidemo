@@ -1,0 +1,57 @@
+.header_title_category {color: #fff;font-size: 1rem;background-color: #19191a; }
+.color-gray .open-panel svg { height: 1rem;width: 0.825rem;}
+.login_content{padding: 0rem 0.75rem;background-color: #fff;}
+.login_content .logo_class{text-align: center;}
+.login_content .logo_class svg{margin-top: 5rem;margin-bottom: 2rem;}
+.login_content .form_class input{border: none;font-size: 0.75rem;color: #c8c9cc;}
+.login_content .form_class .col-25 {font-size: 0.75rem;}
+.login_content .form_class .row{height: 2.5rem;line-height: 2.5rem;border-bottom: 0.025rem solid #ebecf0}
+.login_content .form_class .foget_class span{float:right;font-size: 0.65rem;color: #fe3636}
+.login_content .form_class .foget_class{margin-top: 0.75rem;margin-bottom: 1.5rem;}
+.login_content .form_class .login_btn{text-align: center;}
+.login_content .form_class .login_btn a{display: inline-block;background-color: #fe3636;color: #fff;width: 100%;border-radius: 0.2rem;padding: 0.375rem 0rem;font-size: 0.75rem}
+.login_content .form_class .login_btn a:hover{background-color: #fe4b4b}
+.login_content .form_class .wechart_class{text-align: center;font-size: 0.6rem;margin-top: 3.25rem;}
+.login_content .form_class .wechart_class svg{width: 1.15rem;height: 0.925rem;position: relative;top: 0.25rem}
+.login_content .form_class .wechart_class  span{margin-left: 0.5rem;color: #969696;}
+.login_content .form_class .regist_btn{text-align: center;margin-top: 1.3rem;margin-bottom: 1rem;}
+.login_content .form_class .regist_btn a{display: inline-block; background-color: transparent; color: #fe3636; width: 100%; border-radius: 0.2rem; padding: 0.375rem 0rem;font-size: 0.75rem;border-radius: 0.2rem;border: 0.025rem solid #c8c9cc;}
+
+.register_content{padding: 0rem 0.75rem;background-color: #fff;}
+.register_content .form_class input{border: none;font-size: 0.75rem;color: #c8c9cc;}
+.register_content .form_class .col-25 {font-size: 0.75rem;}
+.register_content .form_class .row{height: 2.5rem;line-height: 2.5rem;border-bottom: 0.025rem solid #ebecf0}
+.register_content .form_class .register_btn{text-align: center;}
+.register_content .form_class .register_btn a {display: inline-block; background-color: #fe3636; color: #fff; width: 100%; border-radius: 0.2rem;padding: 0.375rem 0rem;font-size: 0.75rem;margin-top: 3.75rem;}
+.register_content .form_class .col-75{font-size: 0.75rem;}
+.register_content .form_class .col-75 .radio_class{margin-left: 2rem;}
+.register_content .form_class .phone_code{position: relative}
+.register_content .form_class .phone_code a{display: inline-block;color: #fe4b4b;font-size: 0.75rem;position: absolute;right: 0rem;}
+
+.nologin_content{background-color: #000;padding: 0rem 0.75rem;}
+.nologin_content .logo_class svg{margin-top: 5rem; }
+.nologin_content .logo_class{text-align: center;}
+.nologin_content .logo_class p{color: #fff;margin-top: 1.7rem;margin-bottom: 3.45rem;}
+.nologin_content .login_btn{text-align: center;}
+.nologin_content .login_btn a { display: inline-block;background-color: #fe3636;color: #fff; width: 100%;border-radius: 0.2rem;padding: 0.375rem 0rem;font-size: 0.75rem;}
+.nologin_content .regin_btn{margin-top: 0.5rem;}
+.nologin_content .foget_class span{margin-top: 0.5rem;color:#fe3636;display: inline-block;float: right;font-size: 0.75rem;margin-bottom: 0.75rem; }
+.back_content .form_class .next_btn a{display: inline-block; background-color: #fe3636; color: #fff; width: 100%; border-radius: 0.2rem; padding: 0.375rem 0rem;font-size: 0.75rem;margin-top: 1.75rem;text-align: center}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

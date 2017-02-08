@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>index</title>
+    <meta name="viewport" content="initial-scale=1, maximum-scale=1">
+    <link rel="shortcut icon" href="/favicon.ico">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <link rel="stylesheet" href="./lib/css/sm.min.css">
+    <link rel="stylesheet" href="./lib/css/sm-extend.min.css">
+    <link rel="stylesheet" href="./css/store_style.css">
+</head>
+<body>
+
+<div class="page-group">
+    <!-- 单个page ,第一个.page默认被展示-->
+    <div class="page">
+        <!-- 标题栏 -->
+        <header class="bar bar-nav color-gray">
+
+            <h1 class="title header_title_font">πStore</h1>
+            <a class="icon  pull-right open-panel"><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" preserveAspectRatio="xMidYMid"  viewBox="0 0 33 40">
+                <image xlink:href="data:img/png;base64,iVBORw0KGgoAAAANSUhEUgAAACEAAAAoCAMAAABHNWOVAAAABGdBTUEAALGPC/xhBQAAACBjSFJNAAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAA5FBMVEUAAAD///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////8AAABM9jxDAAAASnRSTlMACW7E8jbhzqSQOPazKAzmhAF5q9X6Hg23J34wZhuRx9DZ4iTq+9SxgApgBGf995KFRIt3Vr8pBfTu+ePbEGw3Icpif0GalUPM/i8jiGAAAAABYktHRACIBR1IAAAACXBIWXMAAAsSAAALEgHS3X78AAABB0lEQVQ4y+3Q6VLCMBQF4EtZS9lKy05JoCiKBtxw30WB8/4PJNNhMEkXH0DPj8w9k2/mZkL0k5SRzgDIpI0URSabA/IFs5AHctkoULRQKgdTuQSrGAaVKmr2brZrqFZCog5Hag7qIeE2mlJrNlwdtNBWehstTXTQVXoXHU300Fd6H7397A0Y53yIEZczwnB7soFH5I9x4MaIQwtjnyY4Og62TJUt02DLyamY0Izt3hElth8zI8wTxRkIZqIw9+IcF4q4xJUmFsC1BG5ucacJB/eeJOwHPGri6flF2eIbr5qIy7/462L+mxCLRPEmiOE9/t7+AKOlgPtpRueLQyyJVusN4rJZr+gbMOU7gNpr8NIAAAAASUVORK5CYII=" width="33" height="40"/>
+            </svg>
+            </a>
+        </header>
+
+        <!-- 工具栏 -->
+        <nav class="bar bar-tab">
+            <a class="tab-item external active" href="./index.html">
+                <p >
+                    <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" preserveAspectRatio="xMidYMid" width="1.1rem" height="0.95rem" viewBox="0 0 44 38">
+                        <image xlink:href="data:img/png;base64,iVBORw0KGgoAAAANSUhEUgAAACwAAAAmCAMAAACIwYlVAAAABGdBTUEAALGPC/xhBQAAACBjSFJNAAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAABX1BMVEUAAAD/GU//GU//GU//GU//GU//GU//GU//GU//GU//GU//GU//GU//GU//GU//GU//GU//GU//GU//GU//GU//GU//GU//GU//GU//GU//GU//GU//GU//GU//GU//GU//GU//GU//GU//GU//GU//GU//GU//GU//GU//GU//GU//GU//GU//GU//GU//GU//GU//GU//GU//GU//GU//GU//GU//GU//GU//GU//GU//GU//GU//GU//GU//GU//GU//GU//GU//GU//GU//GU//GU//GU//GU//GU//GU//GU//GU//GU//GU//GU//GU//GU//GU//GU//GU//GU//GU//GU//GU//GU//GU//GU//GU//GU//GU//GU//GU//GU//GU//GU//GU//GU//GU//GU//GU//GU//GU//GU//GU//GU//GU//GU//GU//GU//GU//GU8AAABKm1EyAAAAc3RSTlMATOZKDJiXCzfb9fbaBIL8ySUmyoEnf4ABaTYZtwpT7ecOoa4UraI+4PJgX+E/B4n+wiCKLdD5dwMC5dEucvgwdB2+8IeNwB/jtkDi8VSmEKOgWFadfEuWGmGweAaxMW9wBfP9Hs0PERN1bdzvJPtJF1AsoGr+RgAAAAFiS0dEAIgFHUgAAAAJcEhZcwAACxIAAAsSAdLdfvwAAAGCSURBVDjLxZRXU8JAFIVXUYoSUREpooCgBhSEiAjYxd6wV+zYu+f/z7iRAdkYlzg+cJ5yT77cPffOTghRUU1trY5oU109qPQGLazRBDQ0AmZjRVRosgDNLa1WwNIm8FmbDLVTSLDTj6w2Dupwyse7CoXLDDQ6Hb+xHW55sM5iadDT0t2hznZ5AC+zMp0X8HSpoL5u2scfYM1ADzV7fUq2TwSCoZ89+oPAQJixIoNRICaphZNiQHQo8m3Eh4HESFJ9lFSaRhkdK1bjE5Sd/HWhIujKE1Mp+Xl6Rr4KGcKBZ+doyvkFurAMsLjEh+1keQVYXSM0wnrWXgkm2Q0ahWyKW4RUhgnZNu8Uai1wSVWCTdjVDu/tH2iHlfovfOg/YnTMgXNRKGTjdNaLrE5yVRnw9OycUZgDX1wq5rvKczpfK+D0DQdO5iVGkbIYlts/DIh9xS/QMMnqrvTmnoaaeQgV9DV36lGR+alEPyfK/Th1BI8Cfvm+p69ljdJvsiO9s/qg3ics4Z/ccMTbNAAAAABJRU5ErkJggg==" width="44" height="38"/>
+                    </svg>
+
+
+
+                </p>
+                <span class="tab-label">商城</span>
+            </a>
+            <a class="tab-item external" href="./category_product.html">
+                <p >
+                    <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" preserveAspectRatio="xMidYMid" width="1rem" height="0.75rem" viewBox="0 0 40 30">
+                        <image xlink:href="data:img/png;base64,iVBORw0KGgoAAAANSUhEUgAAACgAAAAeCAMAAABpA6zvAAAABGdBTUEAALGPC/xhBQAAACBjSFJNAAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAAWlBMVEUAAADQ0NDQ0NDQ0NDQ0NDQ0NDQ0NDQ0NDQ0NDQ0NDQ0NDQ0NDQ0NDQ0NDQ0NDQ0NDQ0NDQ0NDQ0NDQ0NDQ0NDQ0NDQ0NDQ0NDQ0NDQ0NDQ0NDQ0NDQ0NAAAADZp+mTAAAAHHRSTlMAgfvDDAvCUPYiI11gVTylba+wp+g/6m86UsR9u148UwAAAAFiS0dEAIgFHUgAAAAJcEhZcwAACxIAAAsSAdLdfvwAAAB2SURBVDjL7ZQ5DoAwDASXJBDCGSDh9P/fCQhoYyooYBo3K61k2YNISAXECQUREQSRBjQxCEhKDWBSJphA6S0HZHkRolT4eZiqtvuwTRuiq+CIPOC5o+jvBt1VPTDV49sr+h7nuxr2XW8KQJ5KmXilHJJSM5NbVua5JivNbMHlAAAAAElFTkSuQmCC" width="40" height="30"/>
+                    </svg>
+
+
+                </p>
+                <span class="tab-label">分类</span>
+            </a>
+            <a class="tab-item external" href="./center.html">
+                <p >
+                    <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" preserveAspectRatio="xMidYMid" width="0.875rem" height="0.95rem" viewBox="0 0 35 38">
+                        <image xlink:href="data:img/png;base64,iVBORw0KGgoAAAANSUhEUgAAACMAAAAmCAMAAAB5ytLYAAAABGdBTUEAALGPC/xhBQAAACBjSFJNAAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAB0VBMVEUAAADQ0NDQ0NDQ0NDQ0NDQ0NDQ0NDQ0NDQ0NDQ0NDQ0NDQ0NDQ0NDQ0NDQ0NDQ0NDQ0NDQ0NDQ0NDQ0NDQ0NDQ0NDQ0NDQ0NDQ0NDQ0NDQ0NDQ0NDQ0NDQ0NDQ0NDQ0NDQ0NDQ0NDQ0NDQ0NDQ0NDQ0NDQ0NDQ0NDQ0NDQ0NDQ0NDQ0NDQ0NDQ0NDQ0NDQ0NDQ0NDQ0NDQ0NDQ0NDQ0NDQ0NDQ0NDQ0NDQ0NDQ0NDQ0NDQ0NDQ0NDQ0NDQ0NDQ0NDQ0NDQ0NDQ0NDQ0NDQ0NDQ0NDQ0NDQ0NDQ0NDQ0NDQ0NDQ0NDQ0NDQ0NDQ0NDQ0NDQ0NDQ0NDQ0NDQ0NDQ0NDQ0NDQ0NDQ0NDQ0NDQ0NDQ0NDQ0NDQ0NDQ0NDQ0NDQ0NDQ0NDQ0NDQ0NDQ0NDQ0NDQ0NDQ0NDQ0NDQ0NDQ0NDQ0NDQ0NDQ0NDQ0NDQ0NDQ0NDQ0NDQ0NDQ0NDQ0NDQ0NDQ0NDQ0NDQ0NDQ0NDQ0NDQ0NDQ0NDQ0NDQ0NDQ0NDQ0NDQ0NDQ0NDQ0NDQ0NDQ0NDQ0NDQ0NDQ0NDQ0NDQ0NDQ0NDQ0NDQ0NDQ0NDQ0NDQ0NDQ0NDQ0NDQ0NDQ0NDQ0NDQ0NDQ0NDQ0NDQ0NDQ0NAAAABFbUJTAAAAmXRSTlMACFmk2vz936xiDgVz7PKDCiLN2zEt6/7BdUo3SG6580Ea574rIK7xAbyJAnHTVZR4b8vWB8DkAyhUO0Rr9OGIl7SZsJN3kHScuurRjkAnUr+l8AlsUYfVV/blEDCPDQZ8+076QxkYPeNjU+CtI1rmF6uzgmGNz0zOJfkU71zZHnvcFXn3mKJy0io5YGkMDzpYuNid+HaLSZ9WQ6XDAAAAAWJLR0QAiAUdSAAAAAlwSFlzAAALEgAACxIB0t1+/AAAAd9JREFUOMt9lPk/VFEYh18xY7kmyU5CyGTIbugmCmOyVJZki8ZW9qVdGyqKSovw/W+9dz5TznLH+8uc73Ofc+ac93PuJRIq4kxklAPO6JjYOLIvI96Ff3U24ZydkngeYiUl60pKKj9IS8/IzLqQfdHB45xcVcm7xDi/IJQKL3MqKpAV9xWGxZ4TUMK51JCcq4zKJFLOpEIilUBVtbxyDVDrFUAdT6pXdniNmSnk60BDhHqMG0CjEJuAm1o3bsmwGWjRnFagUnZ8mtMmO34gRnN8wG15SrtXdTqATiFm8Tm7FOUOs7tiw6KBe4rTDfT0iqCPJ/VJyn0m/RIxHgDOAQGYg8DQsLzyCDM8HA2lsUcBwGGSUuMTLLl8k1PG9OP+Jzx2zmjdILNduqtFs7rSmz0nOfMLmrK4BKXS/MuSMboSxA2rTxczu8xnz18Eo+uloCx3WOhV/UnLXpetWajkP3hTxfHtO7e0dGKNKHnzObz/oO7Q02hJob9b5+HGpn5S+mjtKbjxwk/AYB3Z1WeWtqwBX1ts2ypU/YVb8JVomJfZMOwd2uH5fqJd/vlG4Yoves53igQCP8I6e7zCT+Le/KLw9Rv4Q/vA31OcA/58kPJWq3UIrNH2UrH7FMdzFGg7BqpOyXczvN4xAAAAAElFTkSuQmCC" width="35" height="38"/>
+                    </svg>
+
+
+
+
+                </p>
+                <span class="tab-label">我的</span>
+            </a>
+        </nav>
+
+
+
+        <!-- 这里是页面内容区 -->
+        <div class="content index_content">
+
+                <div class="top_class">
+
+                </div>
+
+                <div class="category_class">
+                   <div class="row  no-gutter">
+                       <div class="col-33 border_right">
+                           <p>
+                               <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" preserveAspectRatio="xMidYMid"  viewBox="0 0 62 62">
+                                   <defs>
+                                       <style>
+                                           .cls-1 {
+                                               stroke: #f83b8b;
+                                               stroke-width: 2px;
+                                               fill: none;
+                                           }
+                                       </style>
+                                   </defs>
+                                   <g>
+                                       <circle cx="31" cy="31" r="30" class="cls-1"/>
+                                       <image xlink:href="data:img/png;base64,iVBORw0KGgoAAAANSUhEUgAAABMAAAApCAMAAADgb+I1AAAABGdBTUEAALGPC/xhBQAAACBjSFJNAAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAABsFBMVEUAAAD4O4v4O4v4O4v4O4v4O4v4O4v4O4v4O4v4O4v4O4v4O4v4O4v4O4v4O4v4O4v4O4v4O4v4O4v4O4v4O4v4O4v4O4v4O4v4O4v4O4v4O4v4O4v4O4v4O4v4O4v4O4v4O4v4O4v4O4v4O4v4O4v4O4v4O4v4O4v4O4v4O4v4O4v4O4v4O4v4O4v4O4v4O4v4O4v4O4v4O4v4O4v4O4v4O4v4O4v4O4v4O4v4O4v4O4v4O4v4O4v4O4v4O4v4O4v4O4v4O4v4O4v4O4v4O4v4O4v4O4v4O4v4O4v4O4v4O4v4O4v4O4v4O4v4O4v4O4v4O4v4O4v4O4v4O4v4O4v4O4v4O4v4O4v4O4v4O4v4O4v4O4v4O4v4O4v4O4v4O4v4O4v4O4v4O4v4O4v4O4v4O4v4O4v4O4v4O4v4O4v4O4v4O4v4O4v4O4v4O4v4O4v4O4v4O4v4O4v4O4v4O4v4O4v4O4v4O4v4O4v4O4v4O4v4O4v4O4v4O4v4O4v4O4v4O4v4O4v4O4v4O4v4O4v4O4v4O4v4O4v4O4v4O4v4O4v4O4v4O4v4O4v4O4sAAADsgBqNAAAAjnRSTlMAAkqArc7r/OzQsIJJAZ+aFf7w0brxEQvkFhfm+gi9Liy5Y5VfDO8hIPjtCrh+DudoVMPA/U+uqs3IGtplkHBgsUUkqwbz9QfZA0CyjzuGbSXfEluZdlZSWTGX2BRp6ivu1C20E2Q3dVCRWDiNGXy+BPTM3LwJpbeFbnKEa54/NtMfndKn9jWb96l4dDOvKGvgvQAAAAFiS0dEAIgFHUgAAAAJcEhZcwAACxIAAAsSAdLdfvwAAAHeSURBVCjPTZKJV1JBFIevopAaxUMqTbKszJTMEtqJ0lAysk3LMhdsMYsKybLVylbbvr+5O/NG8J7z3v3ON/Pe+Z25IyI1tYG6+mCI0KaGxqbNYTG1hY211aiIpxRtjjXGmrcpedvV7QjR0ip+7WwjvstAO+x2bg90WNjrfqK1D/Zb6DxAvMvSwW56Ev5qAA7ZCHXQ67443OfzEWjpdE6Oaob+ZDIFx6RSx13gE1UlJzV1NOpxqqpOwxltMbxIxaXhrLYMnKu48zCgbRAurKvsEMM5AxeJjjh3CfIWLsOoc1fgqoVaaHKuHq5ZSHSvp2n1uO5W20ndsDAG487dhFsWxmHC9NsRuQOT1t2FKW3TM7NSU2DOzgjbpwv39H0fHvgHpfsfRufNhkewoO0xPJGxwrwk8rNShKfqGuCZPFdVymdlscwLHW+KJZvXKJGXhF7JKCxb9dooeQNFeQvvlPOlhETej8gEfJAV+Kjuk6rPk2FZNReg308svpJwmaQE6XHqS9g/pDZJUS6auX9dtkc82Icn3+C7TjqbserHDPyURAekAm4M6TUdg2bK6k5Kq2qmfimtLJrF8G+9KMN/cukgxDPrwxzQvzCkz9zf6uWI/DM3aK03JxtrYclLdjn+D3u1m7BAStm/AAAAAElFTkSuQmCC" x="22" y="11" width="19" height="41"/>
+                                   </g>
+                               </svg>
+
+                           </p>
+                           <span>男士专区</span>
+                       </div>
+                       <div class="col-33 border_right">
+                           <p><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" preserveAspectRatio="xMidYMid"  viewBox="0 0 62 62">
+                               <defs>
+                                   <style>
+                                       .cls-1 {
+                                           stroke: #f83b8b;
+                                           stroke-width: 2px;
+                                           fill: none;
+                                       }
+                                   </style>
+                               </defs>
+                               <g>
+                                   <circle cx="31" cy="31" r="30" class="cls-1"/>
+                                   <image xlink:href="data:img/png;base64,iVBORw0KGgoAAAANSUhEUgAAABsAAAAmCAMAAAAC7hAUAAAABGdBTUEAALGPC/xhBQAAACBjSFJNAAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAABm1BMVEUAAAD4O4v4O4v4O4v4O4v4O4v4O4v4O4v4O4v4O4v4O4v4O4v4O4v4O4v4O4v4O4v4O4v4O4v4O4v4O4v4O4v4O4v4O4v4O4v4O4v4O4v4O4v4O4v4O4v4O4v4O4v4O4v4O4v4O4v4O4v4O4v4O4v4O4v4O4v4O4v4O4v4O4v4O4v4O4v4O4v4O4v4O4v4O4v4O4v4O4v4O4v4O4v4O4v4O4v4O4v4O4v4O4v4O4v4O4v4O4v4O4v4O4v4O4v4O4v4O4v4O4v4O4v4O4v4O4v4O4v4O4v4O4v4O4v4O4v4O4v4O4v4O4v4O4v4O4v4O4v4O4v4O4v4O4v4O4v4O4v4O4v4O4v4O4v4O4v4O4v4O4v4O4v4O4v4O4v4O4v4O4v4O4v4O4v4O4v4O4v4O4v4O4v4O4v4O4v4O4v4O4v4O4v4O4v4O4v4O4v4O4v4O4v4O4v4O4v4O4v4O4v4O4v4O4v4O4v4O4v4O4v4O4v4O4v4O4v4O4v4O4v4O4v4O4v4O4v4O4v4O4v4O4v4O4v4O4v4O4v4O4sAAABjqkauAAAAh3RSTlMAPXCOrMvp+aAGnt838a397I8FJz4uW5txIp/w96imP2LJsMb89GT+jRUPgfomVUQ6iHK/CfjrGrxPB37ip4I4h2AsmFgBlcdMffbVefNTyFmLLUXeUB7DFuBojJTkM929AtQrCrLCfLjmbuju6kd7k7NXDMG3C2wd13qkIfUDWqIgGTwOr2o/r+2lAAAAAWJLR0QAiAUdSAAAAAlwSFlzAAALEgAACxIB0t1+/AAAAZtJREFUOMutk1dXwkAQhceoiREVe1ewIBbsHRUrig3F3nvvvbdguX/bBUISJD54jvdlypfdM3P3hEhHEVxkVDQv6CGKgU+8LhNjDYxF6zKKi2cs4TdkTESStpWckpomyig9A5kqycrOYRfl5qX5EYn5JgWZBRgLCosEFFt8SKsSWEvLWCyvsP1ElTZjlZxW26w1ISwftUpeh3otashtLFc3b0KzdiG0hFzSqhb2NrR3ODqDZRfMCurm/d6iqCdQ96JPJs5+YAAW16ABQy5/ZxjyRzSCUTeNYZzsHgxNsMYkppyyVUIxM2ca/AyRB7NEc/NYkI8tYskXOrBsItGAlc5VrK3LbAObvrC1Dezs7mGfBWVVwRKI6weH/mGPRkRlARwrW56cRmHNrjHhEKpbZMaZ1soEdKvFOS60zIXVy2BuQuKlljmvcH0TSHt43Ia8HN0t497NJih7sODRGcroaQB4vp+yApEv9FMvr/WNQNPbCumKAySiPzKvJDmAd0n6CGdWyNL5O4IIheFsgeM+AQfHVf/fnExfgDes+Q29xnOvhcwiugAAAABJRU5ErkJggg==" x="18" y="12" width="27" height="38"/>
+                               </g>
+                           </svg>
+                           </p>
+                           <span>共用专区</span>
+                       </div>
+                       <div class="col-33">
+                           <p><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" preserveAspectRatio="xMidYMid"  viewBox="0 0 62 62">
+                               <defs>
+                                   <style>
+                                       .cls-1 {
+                                           stroke: #f83b8b;
+                                           stroke-width: 2px;
+                                           fill: none;
+                                       }
+                                   </style>
+                               </defs>
+                               <g>
+                                   <circle cx="31" cy="31" r="30" class="cls-1"/>
+                                   <image xlink:href="data:img/png;base64,iVBORw0KGgoAAAANSUhEUgAAACIAAAAcCAMAAAAz6Z0tAAAABGdBTUEAALGPC/xhBQAAACBjSFJNAAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAABs1BMVEUAAAD4O4v4O4v4O4v4O4v4O4v4O4v4O4v4O4v4O4v4O4v4O4v4O4v4O4v4O4v4O4v4O4v4O4v4O4v4O4v4O4v4O4v4O4v4O4v4O4v4O4v4O4v4O4v4O4v4O4v4O4v4O4v4O4v4O4v4O4v4O4v4O4v4O4v4O4v4O4v4O4v4O4v4O4v4O4v4O4v4O4v4O4v4O4v4O4v4O4v4O4v4O4v4O4v4O4v4O4v4O4v4O4v4O4v4O4v4O4v4O4v4O4v4O4v4O4v4O4v4O4v4O4v4O4v4O4v4O4v4O4v4O4v4O4v4O4v4O4v4O4v4O4v4O4v4O4v4O4v4O4v4O4v4O4v4O4v4O4v4O4v4O4v4O4v4O4v4O4v4O4v4O4v4O4v4O4v4O4v4O4v4O4v4O4v4O4v4O4v4O4v4O4v4O4v4O4v4O4v4O4v4O4v4O4v4O4v4O4v4O4v4O4v4O4v4O4v4O4v4O4v4O4v4O4v4O4v4O4v4O4v4O4v4O4v4O4v4O4v4O4v4O4v4O4v4O4v4O4v4O4v4O4v4O4v4O4v4O4v4O4v4O4v4O4v4O4v4O4v4O4v4O4v4O4v4O4sAAABeUQsPAAAAj3RSTlMABp39viYDr+0te5nx4RYZ94069rwC5AdMesSBdPw5QLHfDyIT5aX7JEH+Vew/kesVwngM4KuDyEZSNh2k5xABfLLb7puXxYtkTwmGve8rOFGaG+goY1Av9BoxnGiIF+qpJdPaoaNbPQRs13GAuMsRKTPH8FdnzUtcCllC+KquhzCKTTt5qCBloNAOavrjc1Ak7iMAAAABYktHRACIBR1IAAAACXBIWXMAAAsSAAALEgHS3X78AAABpklEQVQoz33S91MTURDA8Y3BKIiAAkFEPDBGhaABjIAFI83KifQmmgiodCQ2VCSIBRD8/su+azM3w132l925+dzOe/tWRAJHgnlHJVeEjgHH83ORAjhRyMkif1Fcwik5XUpZeY4m4QqRM0EqfclZqox0jurzfqQQzcw11F7wIRAx88Uol3zIZa5YRV09MW/SwFW7uka80ZM00WxX1xPc8CQttDplG9z0IrcwDlN+26jv0H7XgySj3BPpoFM1KOqi26tND/dFEuopHyTlITzyIDGqHysShSeS7EV/ephEoE+RZ/2ouQwMEh46bOIMKzIS6qVrQEZ1xprHQxOT4dbnAddkpgwiL16SEkm/wonpNofMMGsSeQ1vRN7OGWh+oT8IqWKLLLJkkeSycTkVK6vGS7xbg8x788MHPlpENPjkHtnnONbzxEjYRC3N9Lr7Jo1l8EXlr8Qdkv7GRshtAin1v8gEGYfIHHx3L9/6JkGVsqAN2kS2oGHqh9aXzW5rsZ+/dMxd/G0OwSbyR8cd9TvG4QK7qtTTTu+9vx2JffWlJHOwnPqnFvs/Lg6HWfRMIF4AAAAASUVORK5CYII=" x="15" y="18" width="34" height="28"/>
+                               </g>
+                           </svg>
+                           </p>
+                           <span>女士专区</span>
+                       </div>
+                   </div>
+                </div>
+
+                <div class="hot_class">
+                    <div class="bottom_font">
+                        <div class="row  no-gutter">
+                            <div class="col-50"><span>高科技男性飞机杯</span></div>
+                            <div class="col-50 price_class"><em>价格:9999.999 RMB</em></div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="bottom_class">
+
+                </div>
+
+
+        </div>
+    </div>
+
+</div>
+
+
+
+
+<script type='text/javascript' src='./lib/js/zepto.min.js' charset='utf-8'></script>
+<script type='text/javascript' src='./lib/js/sm.min.js' charset='utf-8'></script>
+<script type='text/javascript' src='./lib/js/sm-extend.min.js' charset='utf-8'></script>
+
+
+<!-- 默认必须要执行$.init(),实际业务里一般不会在HTML文档里执行，通常是在业务页面代码的最后执行 -->
+<script>$.init()</script>
+
+</body>
+</html>

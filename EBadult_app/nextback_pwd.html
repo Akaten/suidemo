@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>back_pwd2</title>
+    <meta name="viewport" content="initial-scale=1, maximum-scale=1">
+    <link rel="shortcut icon" href="/favicon.ico">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <link rel="stylesheet" href="./lib/css/sm.min.css">
+    <link rel="stylesheet" href="./lib/css/sm-extend.min.css">
+    <!--<link rel="stylesheet" href="./css/store_style.css">-->
+    <link rel="stylesheet" href="./css/login_register.css">
+</head>
+<body>
+
+<div class="page-group">
+    <!-- 单个page ,第一个.page默认被展示-->
+    <div class="page">
+        <header class="bar bar-nav color-gray">
+            <a class="icon  pull-left open-panel" onclick="history.back();">
+                <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" preserveAspectRatio="xMidYMid" width="21.219" height="36.75" viewBox="0 0 21.219 36.75">
+                    <defs>
+                        <style>
+                            .cls-1 {
+                                fill: #fff;
+                                fill-rule: evenodd;
+                            }
+                        </style>
+                    </defs>
+                    <path d="M21.203,33.931 L18.375,36.760 L2.819,21.203 L2.819,21.203 L-0.010,18.375 L2.819,15.546 L2.819,15.546 L18.375,-0.010 L21.203,2.819 L5.647,18.375 L21.203,33.931 Z" class="cls-1"/>
+                </svg>
+
+            </a>
+            <h1 class="title header_title_category">找回密码</h1>
+
+        </header>
+        <!-- 这里是页面内容区 -->
+        <div class="content register_content back_content">
+            <div class="form_class">
+
+                <div class="row no-gutter">
+                    <div class="col-25">密<i style="visibility: hidden">空格</i>码</div>
+                    <div class="col-75"><input type="password" placeholder="请输入新密码"></div>
+                </div>
+                <div class="row no-gutter">
+                    <div class="col-25">确认密码</div>
+                    <div class="col-75"><input type="password" placeholder="再次输入新密码"></div>
+                </div>
+
+
+
+
+                <div class=" next_btn"><a href="./login_register.html">确定</a></div>
+
+            </div>
+
+        </div>
+    </div>
+
+</div>
+
+
+
+
+<script type='text/javascript' src='./lib/js/zepto.min.js' charset='utf-8'></script>
+<script type='text/javascript' src='./lib/js/sm.min.js' charset='utf-8'></script>
+<script type='text/javascript' src='./lib/js/sm-extend.min.js' charset='utf-8'></script>
+
+<!-- 默认必须要执行$.init(),实际业务里一般不会在HTML文档里执行，通常是在业务页面代码的最后执行 -->
+<script>$.init()</script>
+
+</body>
+</html>

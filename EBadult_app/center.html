@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>index</title>
+    <meta name="viewport" content="initial-scale=1, maximum-scale=1">
+    <link rel="shortcut icon" href="/favicon.ico">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <link rel="stylesheet" href="./lib/css/sm.min.css">
+    <link rel="stylesheet" href="./lib/css/sm-extend.min.css">
+    <link rel="stylesheet" href="./css/store_style.css">
+    <link rel="stylesheet" href="./css/login_register.css">
+</head>
+<body>
+
+<div class="page-group">
+    <!-- 单个page ,第一个.page默认被展示-->
+    <div class="page">
+        <!-- 标题栏 -->
+        <header class="bar bar-nav color-gray">
+
+            <h1 class="title header_title_category">个人中心</h1>
+            <a class="icon  pull-right open-panel"><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" preserveAspectRatio="xMidYMid"  viewBox="0 0 33 40">
+                <image xlink:href="data:img/png;base64,iVBORw0KGgoAAAANSUhEUgAAACEAAAAoCAMAAABHNWOVAAAABGdBTUEAALGPC/xhBQAAACBjSFJNAAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAA5FBMVEUAAAD///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////8AAABM9jxDAAAASnRSTlMACW7E8jbhzqSQOPazKAzmhAF5q9X6Hg23J34wZhuRx9DZ4iTq+9SxgApgBGf995KFRIt3Vr8pBfTu+ePbEGw3Icpif0GalUPM/i8jiGAAAAABYktHRACIBR1IAAAACXBIWXMAAAsSAAALEgHS3X78AAABB0lEQVQ4y+3Q6VLCMBQF4EtZS9lKy05JoCiKBtxw30WB8/4PJNNhMEkXH0DPj8w9k2/mZkL0k5SRzgDIpI0URSabA/IFs5AHctkoULRQKgdTuQSrGAaVKmr2brZrqFZCog5Hag7qIeE2mlJrNlwdtNBWehstTXTQVXoXHU300Fd6H7397A0Y53yIEZczwnB7soFH5I9x4MaIQwtjnyY4Og62TJUt02DLyamY0Izt3hElth8zI8wTxRkIZqIw9+IcF4q4xJUmFsC1BG5ucacJB/eeJOwHPGri6flF2eIbr5qIy7/462L+mxCLRPEmiOE9/t7+AKOlgPtpRueLQyyJVusN4rJZr+gbMOU7gNpr8NIAAAAASUVORK5CYII=" width="33" height="40"/>
+            </svg>
+            </a>
+        </header>
+
+        <!-- 工具栏 -->
+        <nav class="bar bar-tab">
+            <a class="tab-item external " href="./index.html">
+                <p >
+                    <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" preserveAspectRatio="xMidYMid" width="1.1rem" height="0.95rem" viewBox="0 0 44 38">
+                        <image xlink:href="data:img/png;base64,iVBORw0KGgoAAAANSUhEUgAAACwAAAAmCAMAAACIwYlVAAAABGdBTUEAALGPC/xhBQAAACBjSFJNAAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAABX1BMVEUAAADQ0NDQ0NDQ0NDQ0NDQ0NDQ0NDQ0NDQ0NDQ0NDQ0NDQ0NDQ0NDQ0NDQ0NDQ0NDQ0NDQ0NDQ0NDQ0NDQ0NDQ0NDQ0NDQ0NDQ0NDQ0NDQ0NDQ0NDQ0NDQ0NDQ0NDQ0NDQ0NDQ0NDQ0NDQ0NDQ0NDQ0NDQ0NDQ0NDQ0NDQ0NDQ0NDQ0NDQ0NDQ0NDQ0NDQ0NDQ0NDQ0NDQ0NDQ0NDQ0NDQ0NDQ0NDQ0NDQ0NDQ0NDQ0NDQ0NDQ0NDQ0NDQ0NDQ0NDQ0NDQ0NDQ0NDQ0NDQ0NDQ0NDQ0NDQ0NDQ0NDQ0NDQ0NDQ0NDQ0NDQ0NDQ0NDQ0NDQ0NDQ0NDQ0NDQ0NDQ0NDQ0NDQ0NDQ0NDQ0NDQ0NDQ0NDQ0NDQ0NDQ0NDQ0NDQ0NDQ0NDQ0NDQ0NDQ0NDQ0NDQ0NDQ0NDQ0NDQ0NDQ0NDQ0NDQ0NDQ0NDQ0NDQ0NDQ0NDQ0NDQ0NDQ0NDQ0NAAAABjonkTAAAAc3RSTlMATOZKDJiXCzfb9fbaBIL8ySUmyoEnf4ABaTYZtwpT7ecOoa4UraI+4PJgX+E/B4n+wiCKLdD5dwMC5dEucvgwdB2+8IeNwB/jtkDi8VSmEKOgWFadfEuWGmGweAaxMW9wBfP9Hs0PERN1bdzvJPtJF1AsoGr+RgAAAAFiS0dEAIgFHUgAAAAJcEhZcwAACxIAAAsSAdLdfvwAAAGCSURBVDjLxZRXU8JAFIVXUYoSUREpooCgBhSEiAjYxd6wV+zYu+f/z7iRAdkYlzg+cJ5yT77cPffOTghRUU1trY5oU109qPQGLazRBDQ0AmZjRVRosgDNLa1WwNIm8FmbDLVTSLDTj6w2Dupwyse7CoXLDDQ6Hb+xHW55sM5iadDT0t2hznZ5AC+zMp0X8HSpoL5u2scfYM1ADzV7fUq2TwSCoZ89+oPAQJixIoNRICaphZNiQHQo8m3Eh4HESFJ9lFSaRhkdK1bjE5Sd/HWhIujKE1Mp+Xl6Rr4KGcKBZ+doyvkFurAMsLjEh+1keQVYXSM0wnrWXgkm2Q0ahWyKW4RUhgnZNu8Uai1wSVWCTdjVDu/tH2iHlfovfOg/YnTMgXNRKGTjdNaLrE5yVRnw9OycUZgDX1wq5rvKczpfK+D0DQdO5iVGkbIYlts/DIh9xS/QMMnqrvTmnoaaeQgV9DV36lGR+alEPyfK/Th1BI8Cfvm+p69ljdJvsiO9s/qg3ics4Z/ccMTbNAAAAABJRU5ErkJggg==" width="44" height="38"/>
+                    </svg>
+
+
+
+                </p>
+                <span class="tab-label">商城</span>
+            </a>
+            <a class="tab-item external" href="./category_product.html">
+                <p >
+                    <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" preserveAspectRatio="xMidYMid" width="1rem" height="0.75rem" viewBox="0 0 40 30">
+                        <image xlink:href="data:img/png;base64,iVBORw0KGgoAAAANSUhEUgAAACgAAAAeCAMAAABpA6zvAAAABGdBTUEAALGPC/xhBQAAACBjSFJNAAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAAWlBMVEUAAADQ0NDQ0NDQ0NDQ0NDQ0NDQ0NDQ0NDQ0NDQ0NDQ0NDQ0NDQ0NDQ0NDQ0NDQ0NDQ0NDQ0NDQ0NDQ0NDQ0NDQ0NDQ0NDQ0NDQ0NDQ0NDQ0NDQ0NDQ0NAAAADZp+mTAAAAHHRSTlMAgfvDDAvCUPYiI11gVTylba+wp+g/6m86UsR9u148UwAAAAFiS0dEAIgFHUgAAAAJcEhZcwAACxIAAAsSAdLdfvwAAAB2SURBVDjL7ZQ5DoAwDASXJBDCGSDh9P/fCQhoYyooYBo3K61k2YNISAXECQUREQSRBjQxCEhKDWBSJphA6S0HZHkRolT4eZiqtvuwTRuiq+CIPOC5o+jvBt1VPTDV49sr+h7nuxr2XW8KQJ5KmXilHJJSM5NbVua5JivNbMHlAAAAAElFTkSuQmCC" width="40" height="30"/>
+                    </svg>
+
+
+                </p>
+                <span class="tab-label">分类</span>
+            </a>
+            <a class="tab-item external active" href="./center.html">
+                <p >
+
+                    <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" preserveAspectRatio="xMidYMid" width="0.875rem" height="0.95rem" viewBox="0 0 35 38">
+                        <image xlink:href="data:img/png;base64,iVBORw0KGgoAAAANSUhEUgAAACMAAAAmCAMAAAB5ytLYAAAABGdBTUEAALGPC/xhBQAAACBjSFJNAAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAB0VBMVEUAAAD/GU//GU//GU//GU//GU//GU//GU//GU//GU//GU//GU//GU//GU//GU//GU//GU//GU//GU//GU//GU//GU//GU//GU//GU//GU//GU//GU//GU//GU//GU//GU//GU//GU//GU//GU//GU//GU//GU//GU//GU//GU//GU//GU//GU//GU//GU//GU//GU//GU//GU//GU//GU//GU//GU//GU//GU//GU//GU//GU//GU//GU//GU//GU//GU//GU//GU//GU//GU//GU//GU//GU//GU//GU//GU//GU//GU//GU//GU//GU//GU//GU//GU//GU//GU//GU//GU//GU//GU//GU//GU//GU//GU//GU//GU//GU//GU//GU//GU//GU//GU//GU//GU//GU//GU//GU//GU//GU//GU//GU//GU//GU//GU//GU//GU//GU//GU//GU//GU//GU//GU//GU//GU//GU//GU//GU//GU//GU//GU//GU//GU//GU//GU//GU//GU//GU//GU//GU//GU//GU//GU//GU//GU//GU//GU//GU//GU//GU//GU//GU//GU//GU//GU//GU8AAACtRUu4AAAAmXRSTlMACFmk2vz936xiDgVz7PKDCiLN2zEt6/7BdUo3SG6580Ea574rIK7xAbyJAnHTVZR4b8vWB8DkAyhUO0Rr9OGIl7SZsJN3kHScuurRjkAnUr+l8AlsUYfVV/blEDCPDQZ8+076QxkYPeNjU+CtI1rmF6uzgmGNz0zOJfkU71zZHnvcFXn3mKJy0io5YGkMDzpYuNid+HaLSZ9WQ6XDAAAAAWJLR0QAiAUdSAAAAAlwSFlzAAALEgAACxIB0t1+/AAAAd9JREFUOMt9lPk/VFEYh18xY7kmyU5CyGTIbugmCmOyVJZki8ZW9qVdGyqKSovw/W+9dz5TznLH+8uc73Ofc+ac93PuJRIq4kxklAPO6JjYOLIvI96Ff3U24ZydkngeYiUl60pKKj9IS8/IzLqQfdHB45xcVcm7xDi/IJQKL3MqKpAV9xWGxZ4TUMK51JCcq4zKJFLOpEIilUBVtbxyDVDrFUAdT6pXdniNmSnk60BDhHqMG0CjEJuAm1o3bsmwGWjRnFagUnZ8mtMmO34gRnN8wG15SrtXdTqATiFm8Tm7FOUOs7tiw6KBe4rTDfT0iqCPJ/VJyn0m/RIxHgDOAQGYg8DQsLzyCDM8HA2lsUcBwGGSUuMTLLl8k1PG9OP+Jzx2zmjdILNduqtFs7rSmz0nOfMLmrK4BKXS/MuSMboSxA2rTxczu8xnz18Eo+uloCx3WOhV/UnLXpetWajkP3hTxfHtO7e0dGKNKHnzObz/oO7Q02hJob9b5+HGpn5S+mjtKbjxwk/AYB3Z1WeWtqwBX1ts2ypU/YVb8JVomJfZMOwd2uH5fqJd/vlG4Yoves53igQCP8I6e7zCT+Le/KLw9Rv4Q/vA31OcA/58kPJWq3UIrNH2UrH7FMdzFGg7BqpOyXczvN4xAAAAAElFTkSuQmCC" width="35" height="38"/>
+                    </svg>
+
+
+
+
+                </p>
+                <span class="tab-label">我的</span>
+            </a>
+        </nav>
+
+
+
+        <!-- 这里是页面内容区 -->
+        <div class="content center_content">
+                <div class="top_bg">
+                    <div class="one_class"></div>
+                    <div class="two_class"></div>
+                    <div class="img_con"><img src="./image/header.jpg" >
+                        <div class="user_name"><span>黄小狗</span></div>
+                    </div>
+
+                </div>
+
+
+                <div class="center_list">
+                    <ul>
+                        <li>
+                            <a href="./incompleteOrders.html"><div class="row no-gutter">
+                                <div class="col-20">
+                                    <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" preserveAspectRatio="xMidYMid"  viewBox="0 0 39 39">
+                                        <image xlink:href="data:img/png;base64,iVBORw0KGgoAAAANSUhEUgAAACcAAAAnCAMAAAC7faEHAAAABGdBTUEAALGPC/xhBQAAACBjSFJNAAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAAilBMVEUAAAAjGBUjGBUjGBUjGBUjGBUjGBUjGBUjGBUjGBUjGBUjGBUjGBUjGBUjGBUjGBUjGBUjGBUjGBUjGBUjGBUjGBUjGBUjGBUjGBUjGBUjGBUjGBUjGBUjGBUjGBUjGBUjGBUjGBUjGBUjGBUjGBUjGBUjGBUjGBUjGBUjGBUjGBUjGBUjGBUAAABkxjzKAAAALHRSTlMAGV6dyOv8AVC6/UXVkmtWDaTNZhAl29hJMYgG9rBzQeDAkfPQcfug0+/fbJBV8nMAAAABYktHRACIBR1IAAAACXBIWXMAAAsSAAALEgHS3X78AAABW0lEQVQ4y42Ui5KCMAxFI9BSEAEBQYVdV9z33v//vi2oPBoRzowzNFximhfRkJVlO0JCCse2VjSBqzwfPb6n3EeydaBfSmcTRioKN47Up2DNVPFW25M06wxZmmjLNh7LdjlQ7I1v9wWQ74aWgwCOJfuT8giIw8CbQKW60/HltXtWFUTnMc5Rnfqv3nDuD6cK+T1GfQVFEzpS+jK3hOjYaFJHOsY2PW6AonyiKwsE7tXxOCGGjvbXsDwk9FRHCTxdeh/pjC6FvyILMpvRZRIW2XBoRkcObP2rZ3W19iUQzupCCJKIDOsFl/eeD22JIGlcs4ZPDPm6pviBv++f33PP380fj4/TxMfvy2nuy/PHafLH68Fo68Hry2jry/uF0fYL7z+TW/+xfja49zObD4P7fLB5G9PPmzm/I4bza+yDkbfhPli8Xxbvq8X7j7p9Wrf7tJ7ap7R4PzdM7/t/OfQwkEZH4OkAAAAASUVORK5CYII=" width="39" height="39"/>
+                                    </svg>
+
+
+                                </div>
+                                <div class="col-80">未完成的订单</div>
+                            </div></a>
+                        </li>
+
+                        <li>
+                            <a href="./completeOrders.html"><div class="row no-gutter">
+                                <div class="col-20">
+                                    <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" preserveAspectRatio="xMidYMid"  viewBox="0 0 37 39">
+                                        <image xlink:href="data:img/png;base64,iVBORw0KGgoAAAANSUhEUgAAACUAAAAnCAMAAAC/iHE6AAAABGdBTUEAALGPC/xhBQAAACBjSFJNAAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAABBVBMVEUAAAAnJTYnJTYnJTYnJTYnJTYnJTYnJTYnJTYnJTYnJTYnJTYnJTYnJTYnJTYnJTYnJTYnJTYnJTYnJTYnJTYnJTYnJTYnJTYnJTYnJTYnJTYnJTYnJTYnJTYnJTYnJTYnJTYnJTYnJTYnJTYnJTYnJTYnJTYnJTYnJTYnJTYnJTYnJTYnJTYnJTYnJTYnJTYnJTYnJTYnJTYnJTYnJTYnJTYnJTYnJTYnJTYnJTYnJTYnJTYnJTYnJTYnJTYnJTYnJTYnJTYnJTYnJTYnJTYnJTYnJTYnJTYnJTYnJTYnJTYnJTYnJTYnJTYnJTYnJTYnJTYnJTYnJTYnJTYnJTYnJTYAAAAYWib2AAAAVXRSTlMAGdDWHwRdrs2kipdozKpPAQW49pmlzqJ197mwbTX7QS1m1O4mTVBOHv2UgBC8yu31BjBwNhtcYOLp0twCCgytt/H4O0CTi/wxD9/Y+quDiN6Cz9eBRYK6sgAAAAFiS0dEAIgFHUgAAAAJcEhZcwAACxIAAAsSAdLdfvwAAAEHSURBVDjLzZLJVsJAEEXL1jgPcQpCa1BBReJIFOcAKuCAs+//f8U6J0fAVJvsNHdV9fouuqqbqI8BhW8Gh+gH1vDIqFJqjMtx9JjgfpIPpqZnbKLZuTCd53Shz1rk3gnLjE1LQDantV7mdCXbldw896sZrXOcrdE6CsXexTY2Q7ZK3axYgEPbKFM8ZbgEeAmWB/yjZe9IbGHtQrInrH2DdXAYtSq+5CgFmziunkSploR1apjxzIpa5wbr4jJqXVUkQQo2QYH4EoG0aoYZ68JqGKxr8SduPMltGjbxZ5aLZoLVQpsUGnex0v0DHskHOk/P3q+8vAJvZNWRxDs/u+U7nRil/fEZ0BfD8qrqGftbnQAAAABJRU5ErkJggg==" width="37" height="39"/>
+                                    </svg>
+
+                                </div>
+                                <div class="col-80">已完成的订单</div>
+                            </div></a>
+                        </li>
+
+
+                        <li>
+                            <div class="row no-gutter">
+                                <div class="col-20">
+                                    <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" preserveAspectRatio="xMidYMid"  viewBox="0 0 41 39">
+                                        <image xlink:href="data:img/png;base64,iVBORw0KGgoAAAANSUhEUgAAACkAAAAnCAMAAACltJG0AAAABGdBTUEAALGPC/xhBQAAACBjSFJNAAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAABWVBMVEUAAAAnJTYnJTYnJTYnJTYnJTYnJTYnJTYnJTYnJTYnJTYnJTYnJTYnJTYnJTYnJTYnJTYnJTYnJTYnJTYnJTYnJTYnJTYnJTYnJTYnJTYnJTYnJTYnJTYnJTYnJTYnJTYnJTYnJTYnJTYnJTYnJTYnJTYnJTYnJTYnJTYnJTYnJTYnJTYnJTYnJTYnJTYnJTYnJTYnJTYnJTYnJTYnJTYnJTYnJTYnJTYnJTYnJTYnJTYnJTYnJTYnJTYnJTYnJTYnJTYnJTYnJTYnJTYnJTYnJTYnJTYnJTYnJTYnJTYnJTYnJTYnJTYnJTYnJTYnJTYnJTYnJTYnJTYnJTYnJTYnJTYnJTYnJTYnJTYnJTYnJTYnJTYnJTYnJTYnJTYnJTYnJTYnJTYnJTYnJTYnJTYnJTYnJTYnJTYnJTYnJTYnJTYnJTYnJTYnJTYnJTYnJTYnJTYnJTYAAAChOmfNAAAAcXRSTlMAAQItf8HuR8XGEqvQmG5dUCTc8YUfIOSsFiEK1HqRKfy29x2XHHUodAbrz6LOFKCqkxmn4P5h1WzAa9JgSf0ampkbtHBvsx7pLubnF6auh94JWCVyLCKbtTb7c+1eBEsYhNuCOAjH9T8Lbcjwe7eM0TK0awcAAAABYktHRACIBR1IAAAACXBIWXMAAAsSAAALEgHS3X78AAABpklEQVQ4y42V6z/bcBTGTyg1lLZkKS1StKZzqRJmqM39ftvsbth9bLbv//9m+fEZrebye97kPOd8k5yc80kiUiPDqDMMCVN9pKERpcaGSH0AF22iUg+iPlxziyq3xtra4+1tsVZlWpq9wEQSOjrNW292dkAyUQs+tCDVVZXqcm9idd8H0xnoqTm9BzLpe7leiHi0FIHe6kyfTdZrhkYWu68qk6LfFC+Z/aQq/YDNoM/sBrFzFTYPQz7kEDy6NcP5AhnxU4ZCfvgmzD12tzHiS4641dHrBsaSam/jvuS4KifH3KgIE1YgaU1AUaQEkzIVSE7JJJQkimOGkqZDVKaZkVBSZpiWJ8xqkLM8da85p0HOMS8LlBdDyVKZBcnBs1DyOSyJLMNKCLkKa260XtDY0caACje3QsntzZt4Z9dhz5fch927N7HIgS95ePSiwr2EY9HSK3itR8obym/1yON3bCX00Pfw4aTuOvx4enIWhJ67Y/v0+Utavn6D7z+C0LhaAI51oA6jgQ38vLh0/n9kf4V1exb/Hcsq8krr4f7Y/DW1SPH+c/wDUvZ1JRoeMIEAAAAASUVORK5CYII=" width="41" height="39"/>
+                                    </svg>
+
+                                </div>
+                                <div class="col-80">售后服务</div>
+                            </div>
+                        </li>
+
+                        <li>
+                            <div class="row no-gutter">
+                                <div class="col-20">
+                                    <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" preserveAspectRatio="xMidYMid"  viewBox="0 0 39 30">
+                                    <image xlink:href="data:img/png;base64,iVBORw0KGgoAAAANSUhEUgAAACcAAAAeCAMAAACYCPdiAAAABGdBTUEAALGPC/xhBQAAACBjSFJNAAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAB71BMVEUAAAAnJTYnJTYnJTYnJTYnJTYnJTYnJTYnJTYnJTYnJTYnJTYnJTYnJTYnJTYnJTYnJTYnJTYnJTYnJTYnJTYnJTYnJTYnJTYnJTYnJTYnJTYnJTYnJTYnJTYnJTYnJTYnJTYnJTYnJTYnJTYnJTYnJTYnJTYnJTYnJTYnJTYnJTYnJTYnJTYnJTYnJTYnJTYnJTYnJTYnJTYnJTYnJTYnJTYnJTYnJTYnJTYnJTYnJTYnJTYnJTYnJTYnJTYnJTYnJTYnJTYnJTYnJTYnJTYnJTYnJTYnJTYnJTYnJTYnJTYnJTYnJTYnJTYnJTYnJTYnJTYnJTYnJTYnJTYnJTYnJTYnJTYnJTYnJTYnJTYnJTYnJTYnJTYnJTYnJTYnJTYnJTYnJTYnJTYnJTYnJTYnJTYnJTYnJTYnJTYnJTYnJTYnJTYnJTYnJTYnJTYnJTYnJTYnJTYnJTYnJTYnJTYnJTYnJTYnJTYnJTYnJTYnJTYnJTYnJTYnJTYnJTYnJTYnJTYnJTYnJTYnJTYnJTYnJTYnJTYnJTYnJTYnJTYnJTYnJTYnJTYnJTYnJTYnJTYnJTYnJTYnJTYnJTYnJTYnJTYnJTYnJTYnJTYnJTYnJTYnJTYnJTYnJTYnJTYnJTYnJTYnJTYnJTYnJTYAAACmKyzeAAAAo3RSTlMABFyw5/3425c6P9kYW/6zZUZOftfkJDz8MwMZEAJu+g3Y3RUJiO3PUIRPOcZvlvULoL6BfyY4JR9SznLjjQqDguVUCEOjqLyaX/dpyY+0nq/rNHhNDPZmavQWK+m7AWgeDz3hrQ4XZ11ReXAvwFa28iGYosWMlCq1kHR8yuqfw66d+zbwMt7auOI73KuFNWsxBc0Gt0heIKXL1tPHyGOxMODmr1boCAAAAAFiS0dEAIgFHUgAAAAJcEhZcwAACxIAAAsSAdLdfvwAAAHpSURBVDjLjZIHUxNhEIY3JmcseGhQiIGIQSAoSjw0iIqIROyiAYOKekEsIBgLFuwoqIhgF3t//qh3aYTxkvjOfPO9u/PM3X67KzJbtjl2hzLXOW++5NSChSRlL8iBLVJQCxcvcRUthWXFWbESN87l4iktE++Kcpwrs2A2HxWrKquqwe+SGpXVWbg1UFu5NlHeOqkjsN6a06iXDSgbgw31uDc1wmZrbgtbpYlthmtuYrv4aLHmdtAagp2mbWOX7GaPNedkr+xjv2kPUGecg9ZcO4fkMOEO8XbCkUgXR625YxzvPhEA30k4pUdRe6y509VGVb1nzLacPXc+jD3bPPqgX0IXBgYvit5OIPgPUBwzdUm/zJWriUwUop4hu6HSDO5afAZdHQVhrnvMRDBAoX4jnr05gw2r3Lpt6I7UwF1z0ve4393zQNO0Ecob09xDHJGkfcTomEiL0ZdEXPYYLYU9gcGUjzxlPFLrZiiVGMA9nLTPmAilv/1coW2S8fSqNDuYSrhe6Mt40wuj9tGXM/EreB03MSZtGdybt4m3pPSugvfmPQ0fZjXz46cqT2bcDyUi+me+eCWXvF+JidmxVsktF0yLH7+eh5NvfBeVH/kw45+KTPCz4VdujU0RNhfjP1RkLN3vvNSfTv0vErneuLh1PI0AAAAASUVORK5CYII=" width="39" height="30"/>
+                                </svg>
+                                </div>
+                                <div class="col-80">收货地址</div>
+                            </div>
+                        </li>
+
+                        <li class="exict_font">
+                           <div><a href="./login_register.html">退出</a></div>
+                        </li>
+
+                    </ul>
+                </div>
+
+
+
+        </div>
+    </div>
+
+</div>
+
+
+
+
+<script type='text/javascript' src='./lib/js/zepto.min.js' charset='utf-8'></script>
+<script type='text/javascript' src='./lib/js/sm.min.js' charset='utf-8'></script>
+<script type='text/javascript' src='./lib/js/sm-extend.min.js' charset='utf-8'></script>
+
+
+<!-- 默认必须要执行$.init(),实际业务里一般不会在HTML文档里执行，通常是在业务页面代码的最后执行 -->
+<script>$.init()</script>
+
+</body>
+</html>
